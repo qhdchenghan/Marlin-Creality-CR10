@@ -69,7 +69,7 @@ The settings are gathered from many sources but notably:
 
 ### BlTouch v3 specific settings
  * https://youtu.be/sOFxalLOZOI
- * https://www.youtube.com/redirect?q=https%3A%2F%2Fgithub.com%2FInsanityAutomation%2FMarlin%2Fcommit%2F15ce74badfd3a1b6e6ffabf882234ffa77682715&redir_token=bsfGrwbwpuByO1oNjio_QWI4AFV8MTU3NzcyMDY1MkAxNTc3NjM0MjUy&event=video_description&v=sOFxalLOZOI
+ * https://github.com/InsanityAutomation/Marlin/commit/15ce74badfd3a1b6e6ffabf882234ffa77682715
 
 ### Updating firmware, calibrating for BLTouch and Unified Bed Leveling
  * https://www.youtube.com/watch?v=y_1Kg45APko
