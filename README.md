@@ -25,7 +25,8 @@ The bugfix-1.1.x-manual-mesh-bed-leveling branch is based on [`bugfix-1.1.x`](ht
 
 The settings are gathered from many sources but notably:
  *  Configuration sample in .\example_configurations\Creality\CR-10S
- *  http://www.cr10.fr/le-guide-malin-de-marlin/           [English translation here](http://translate.google.com/translate?js=n&sl=auto&tl=en&u=http://www.cr10.fr/le-guide-malin-de-marlin/)
+ *  http://www.cr10.fr/le-guide-malin-de-marlin/           
+ * [English translation of guide above](http://translate.google.com/translate?js=n&sl=auto&tl=en&u=http://www.cr10.fr/le-guide-malin-de-marlin/)
  *  https://www.printedsolid.com/blogs/news/installing-marlin-1-1-9-on-your-cr-10s-with-mesh-bed-leveling-thermal-protection-better-menu-layout-and-finally-power-resume
  *  https://www.thingiverse.com/thing:2828555
  *  https://github.com/houseofbugs/TH3D-Unified-U1.R2
