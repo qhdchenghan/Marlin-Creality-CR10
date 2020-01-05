@@ -1,7 +1,7 @@
 # Marlin 3D Printer Firmware for Creality CR-10S V1
 <img align="right" src="../../raw/1.1.x/buildroot/share/pixmaps/logo/marlin-250.png" />
 
-This is a Fork of the Marlin Firmware configured to work optimally with the Creality CR10s printer
+This is a fork of the Marlin Firmware configured to work optimally with the Creality CR10s printer, with branches
 
 Marlin is the world's most popular open source firmware for Replicating Rapid Prototyper (RepRap) machines, commonly referred to as "3D printers." Marlin Firmware is highly efficient, running even on modest 16MHz embedded AVR processors. 
 
@@ -30,6 +30,10 @@ The settings are gathered from many sources but notably:
  *  https://www.thingiverse.com/thing:2828555
  *  https://github.com/houseofbugs/TH3D-Unified-U1.R2
  *  trial & error
+
+## bugfix-1.1.x-bltouch-bed-leveling
+
+Please switch to this branch in github
 
 ## License
 
