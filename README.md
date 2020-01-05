@@ -8,7 +8,7 @@ Marlin is the world's most popular open source firmware for Replicating Rapid Pr
 
 ## bugfix-1.1.x-bltouch-bed-leveling
 
-The bugfix-1.1.x-manual-mesh-bed-leveling branch is based on [`bugfix-1.1.x`](https://github.com/MarlinFirmware/Marlin/tree/bugfix-1.1.x).
+The bugfix-1.1.x-bltouch-bed-leveling branch is based on [`bugfix-1.1.x`](https://github.com/MarlinFirmware/Marlin/tree/bugfix-1.1.x).
 
 Modified files:
 * CONFIGURATIONS.H
