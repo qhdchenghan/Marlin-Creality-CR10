@@ -5,28 +5,22 @@ This is a fork of the Marlin Firmware configured to work optimally with the Crea
 
 Marlin is the world's most popular open source firmware for Replicating Rapid Prototyper (RepRap) machines, commonly referred to as "3D printers." Marlin Firmware is highly efficient, running even on modest 16MHz embedded AVR processors. 
 
-## Documentation
-
-- Visit [Marlin at github](https://github.com/MarlinFirmware/Marlin) for the original repository
-- Visit [marlinfw.org](http://marlinfw.org/) for complete documentation on [configuration](http://marlinfw.org/docs/configuration/configuration.html), [installation](http://marlinfw.org/docs/basics/install.html), [features](http://marlinfw.org/meta/features/), and the many [G-codes](http://marlinfw.org/meta/gcode/) that Marlin supports. We will continue to expand the site to include in-depth articles, tutorials, and how-to videos on all of Marlin's features.
-- See the [Releases](https://github.com/MarlinFirmware/Marlin/releases) page for Release Notes on all current and previous versions of Marlin.
-- Check out the [RepRap.org Marlin Page](http://reprap.org/wiki/Marlin) for an overview of Marlin and its role in the RepRap project.
 
 ## bugfix-1.1.x-bltouch-bed-leveling
 
 The bugfix-1.1.x-manual-mesh-bed-leveling branch is based on [`bugfix-1.1.x`](https://github.com/MarlinFirmware/Marlin/tree/bugfix-1.1.x).
 
-The  modified files are:
+Modified files:
 * CONFIGURATIONS.H
 * CONFIGURATION_ADV.H
 * PINS_RAMPS.H
 
  This configuration has been tested used with the following setup
  *  Creality CR10-S (V1)
- *  Stock hotend & extruded
+ *  Stock hotend & extruder
  *  Petzfang Bullseye duct
  *  BLtouch 3.1
- *  Arduino 1.8.10+
+ *  Arduino 1.8.10
 
 ## Features
 
@@ -47,12 +41,50 @@ The settings are gathered from many sources but notably:
  *  https://github.com/houseofbugs/TH3D-Unified-U1.R2
  *  trial & error
 
-## bugfix-1.1.x-manual-mesh-bed-leveling
+## Documentation
+
+- Visit [Marlin at github](https://github.com/MarlinFirmware/Marlin) for the original repository
+- Visit [marlinfw.org](http://marlinfw.org/) for complete documentation on [configuration](http://marlinfw.org/docs/configuration/configuration.html), [installation](http://marlinfw.org/docs/basics/install.html), [features](http://marlinfw.org/meta/features/), and the many [G-codes](http://marlinfw.org/meta/gcode/) that Marlin supports. We will continue to expand the site to include in-depth articles, tutorials, and how-to videos on all of Marlin's features.
+- See the [Releases](https://github.com/MarlinFirmware/Marlin/releases) page for Release Notes on all current and previous versions of Marlin.
+- Check out the [RepRap.org Marlin Page](http://reprap.org/wiki/Marlin) for an overview of Marlin and its role in the RepRap project.
+
+## Getting started
+
+### Calibrating your 3D printer
+
+ * http://reprap.org/wiki/Calibration
+ * http://youtu.be/wAL9d7FgInk
+ * http://calculator.josefprusa.cz
+ * http://reprap.org/wiki/Triffid_Hunter%27s_Calibration_Guide
+ * http://www.thingiverse.com/thing:5573
+ * https://sites.google.com/site/repraplogphase/calibration-of-your-reprap
+ * http://www.thingiverse.com/thing:298812
+
+### Updating firmware for CR10-s 
+ * http://www.cr10.fr/le-guide-malin-de-marlin/
+ * https://www.printedsolid.com/blogs/news/installing-marlin-1-1-9-on-your-cr-10s-with-mesh-bed-leveling-thermal-protection-better-menu-layout-and-finally-power-resume
+ * https://www.youtube.com/watch?v=f_-FIHq4WxE
+ * https://www.thingiverse.com/thing:2828555
+
+### BlTouch v3 specific settings
+ * https://youtu.be/sOFxalLOZOI
+ * https://www.youtube.com/redirect?q=https%3A%2F%2Fgithub.com%2FInsanityAutomation%2FMarlin%2Fcommit%2F15ce74badfd3a1b6e6ffabf882234ffa77682715&redir_token=bsfGrwbwpuByO1oNjio_QWI4AFV8MTU3NzcyMDY1MkAxNTc3NjM0MjUy&event=video_description&v=sOFxalLOZOI
+
+### Updating firmware, calibrating for BLTouch and Unified Bed Leveling
+ * https://www.youtube.com/watch?v=y_1Kg45APko
+ * https://www.youtube.com/watch?v=ONpKxkil16Q&t=832s
+ * https://www.youtube.com/watch?v=U98V1nMwLKk
+ 
+### Calibration tooling
+ * https://marlin3dprintertool.se/
+ * http://www.pronterface.com/
+ * https://plugins.octoprint.org/plugins/bedlevelvisualizer/
+
+## Other Branches
+### bugfix-1.1.x-manual-mesh-bed-leveling
 
 This branch implements manual mesh leveling functionality and was the basis for this branch . You can find the [branch here](https://github.com/thijse/Marlin-Creality-CR10/tree/1.1.x-manual-mesh-bed-leveling).
 
 ## License
 
 Marlin is published under the [GPL license](https://github.com/COPYING.md) because we believe in open development. The GPL comes with both rights and obligations. Whether you use Marlin firmware as the driver for your open or closed-source product, you must keep Marlin open, and you must provide your compatible Marlin source code to end users upon request. The most straightforward way to comply with the Marlin license is to make a fork of Marlin on Github, perform your modifications, and direct users to your modified fork.
-
-While we can't prevent the use of this code in products (3D printers, CNC, etc.) that are closed source or crippled by a patent, we would prefer that you choose another firmware or, better yet, make your own.
