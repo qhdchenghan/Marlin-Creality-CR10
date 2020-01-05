@@ -33,7 +33,7 @@ The settings are gathered from many sources but notably:
 
 ## bugfix-1.1.x-bltouch-bed-leveling
 
-Please switch to this branch in github
+This branch implements BLTouch functionality and a set of other tweaking. You can find the [branch here](https://github.com/thijse/Marlin-Creality-CR10/tree/1.1.x-bltouch-bed-leveling).
 
 ## License
 
