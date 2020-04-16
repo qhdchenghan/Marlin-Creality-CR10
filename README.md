@@ -15,12 +15,14 @@ Modified files:
 * CONFIGURATION_ADV.H
 * PINS_RAMPS.H
 
+Download earlier versions of Marlin on the [Releases page](https://github.com/MarlinFirmware/Marlin/releases). (The latest tagged release of Marlin is version 1.1.9.)
  This configuration has been tested used with the following setup
  *  Creality CR10-S (V1)
  *  Stock hotend & extruder
  *  Petzfang Bullseye duct
  *  BLtouch 3.1
  *  Arduino 1.8.10
+
 
 ## Features
 
