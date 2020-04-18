@@ -41,7 +41,7 @@ In order to enable mesh leveling, use following G code as part of your Start G-c
 G28     ; Home all axes to prevent scratching of surface
 G29     ; Enable mesh bed leveling
 M420 S1 ; Turn on the Eeprom Bed Mesh
-G29 L0  ; Load the mesh stored in slot 0 
+G29 L1  ; Load the mesh stored in slot 1 
 G29 J   ; Probe the specified 3 points and tilt the mesh according
 ```
 
